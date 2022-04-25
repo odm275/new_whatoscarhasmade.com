@@ -9,35 +9,35 @@
     -webkit-transition: all 100ms ease-in-out;
     transition: all 100ms ease-in-out;
 }
-.nameColor {
+.name {
     color: #5393fe;
 }
-.workColor {
+.work {
     color: rgb(244, 107, 63);
 }
-.thoughtColor {
+.thought {
     color: #B57BFF;
 }
-.cvColor {
+.cv {
     color: #6CBB47;
 }
 
-.nameColor:hover {
+.name:hover {
     color: #4b84e5;
     background-color: #e3efff;
 }
 
-.workColor:hover {
+.work:hover {
     color: #DC6039;
     background-color: #FDE1D9;
 }
 
-.thoughtColor:hover {
+.thought:hover {
     color: #A36FE6;
     background-color: #F0E5FF;
 }
 
-.cvColor:hover {
+.cv:hover {
     color: #61A840;
     background-color: #E2F1DA;
 }
