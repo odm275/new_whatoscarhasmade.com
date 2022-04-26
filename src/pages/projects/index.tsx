@@ -38,6 +38,8 @@ const Projects = () => {
     `)
     const { nodes } = data.allMdx
 
+    console.log('nodes', nodes)
+
     const linksToProjects = nodes.map((node) => (
         <li>
             <LinkToProject title={node.frontmatter.title} to={node.slug} />

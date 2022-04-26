@@ -41,6 +41,7 @@ export default function ProjectPost({ data }) {
     const { title, description, date, banner, canonicalUrl, tags } =
         data.mdx.frontmatter
     const { body, excerpt, slug, timeToRead } = data.mdx
+    console.log('slug', slug)
     const post = {
         title,
         description,
