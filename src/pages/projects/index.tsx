@@ -1,10 +1,9 @@
 /** @jsx jsx */
-import { Link } from 'gatsby'
 import { jsx, Heading } from 'theme-ui'
-import { MDXRenderer } from 'gatsby-plugin-mdx'
 import Layout from '@lekoarts/gatsby-theme-minimal-blog/src/components/layout'
 import Seo from '@lekoarts/gatsby-theme-minimal-blog/src/components/seo'
 import List from '@lekoarts/gatsby-theme-minimal-blog/src/components/list'
+import { LinkToProject } from '../../components/LinkToProject'
 
 import { graphql, useStaticQuery } from 'gatsby'
 
@@ -41,7 +40,7 @@ const Projects = () => {
 
     const linksToProjects = nodes.map((node) => (
         <li>
-            <Link to={`${node.slug}`}>{node.frontmatter.title}</Link>
+            <LinkToProject title={node.frontmatter.title} to={node.slug} />
         </li>
     ))
 

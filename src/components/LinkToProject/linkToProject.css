@@ -1,7 +1,7 @@
-.project-link {
+.link-to-project {
     text-decoration: none;
 }
 
-.project-link:hover {
+.link-to-project:hover {
     text-decoration: underline;
 }

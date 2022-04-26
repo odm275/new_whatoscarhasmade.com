@@ -1,0 +1,48 @@
+.linkGeneralStyles {
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    -webkit-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+}
+.linkGeneralStyles:hover {
+    cursor: pointer;
+    -webkit-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+}
+.name {
+    color: #5393fe;
+}
+.work {
+    color: rgb(244, 107, 63);
+}
+.thought {
+    color: #B57BFF;
+}
+.cv {
+    color: #6CBB47;
+}
+
+.name:hover {
+    color: #4b84e5;
+    background-color: #e3efff;
+}
+
+.work:hover {
+    color: #DC6039;
+    background-color: #FDE1D9;
+}
+
+.thought:hover {
+    color: #A36FE6;
+    background-color: #F0E5FF;
+}
+
+.cv:hover {
+    color: #61A840;
+    background-color: #E2F1DA;
+}
+
+/* .css-1avhsh h1 a:hover:nth-of-type(5) {
+    color: #159f9f;
+    background-color: #D1EFEF;
+} */

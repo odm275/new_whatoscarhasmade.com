@@ -8,8 +8,8 @@
       "strict": true,
       "noEmit": true,
       "isolatedModules": true,
+      "noUnusedLocals": false,
       "esModuleInterop": true,
-      "noUnusedLocals": false
     },
     "exclude": ["node_modules", "public", ".cache"]
   }

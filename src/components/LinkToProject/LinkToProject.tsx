@@ -1,6 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
-import * as LinkStyles from './LinkToProject.module.css'
+import './linkToProject.css'
+
 interface Props {
     to: string
     title: string
@@ -9,7 +10,7 @@ interface Props {
 export const LinkToProject = ({ to, title }: Props) => {
     return (
         <li>
-            <Link to={to} className={LinkStyles['project-link']}>
+            <Link to={to} className="link-to-project">
                 {title}
             </Link>
         </li>
